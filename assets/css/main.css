@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200");
+
+.fa-telegram:before {
+    content: "\f2c6";
+}
+
+
+body {
+    background-color: #000;
+    background-image: url("../../images/bg.jpg");
+    background-size: cover;
+    background-position: top center;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 13pt;
+    font-weight: 200;
+    line-height: 1.65;
+    margin-top: 20px; 
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+    transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #ffffff;
+    border-bottom-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-weight: 200;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0; 
+    text-align: left;
+    color: white;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    display: block;
+    width: calc(100% - 40px); 
+    height: auto; 
+    max-width: 800px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.text-box:hover {
+    border-color: #ff69b4;
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.text-box h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+.text-box p {
+    margin-bottom: 0;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600; 
+}
+
+header {
+    text-align: center;
+}
+
+header .avatar {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 5px solid rgba(255, 255, 255, 0.25);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+header .avatar-img {
+    width: 150px;
+    height: 150px;
+}
+
+header .icons {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+header .icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header .icons li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 24px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    text-decoration: none; 
+}
+
+header .icons li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ff69b4;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
